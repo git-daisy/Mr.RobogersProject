@@ -10,12 +10,6 @@ function beepBoop(input) {
       returnString += "Boop"
     } else if ((i + '').indexOf('1') > -1) {
       returnString += "Beep"
-    } else {
-    returnString += i && "" 
-    }
-
-    if (returnString != "") {
-      return returnString;
     }
   }
 }
