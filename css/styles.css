@@ -1,0 +1,8 @@
+body { 
+  text-align: center;
+}
+
+.box1 {
+height: 100px;
+border: 15px solid rgb(145, 117, 163);
+}
