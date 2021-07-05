@@ -1,26 +1,35 @@
-// UI Logic 
-let returnString = ""
 
-function beepBoop(input) {
-  returnString = "" 
-  for (i = 0; i <= input; i++) {
-    if ((i + '').indexOf('3') > -1) {
-      returnString += "Won't you be my neighbor?"
-    } else if ((i + '').indexOf('2') > -1) {
-      returnString += "Boop"
-    } else if ((i + '').indexOf('1') > -1) {
-      returnString += "Beep"
-    }
-  }
-}
-// Business Logic 
+const beep = "Beep!!"
+const boop = "Boop!!"
+const wybmn = "Won't you be my neighbor??"
+
+const beepBoop = function(input) {
+  let numbers = [];
+  for (let i = 0; i <= input; i++) {
+    numbers.push(i.toString());
+  };
+
+const beepBoops = numbers.map(function(number) {
+  if (number.includes("3")) {
+    return number = wybmn;
+  } else if (number.includes("2")) {
+    return number = boop; 
+  } else if (number.includes("1")) {
+    return number = beep;
+  } else {
+  return number; 
+  };
+});
+  return beepBoops;
+};
+
 
 $(document).ready(function() {
-  $("#robogers").submit.(function(event) {
-    const input = parseInt($("input#number").val());
-    console.log(beepBoop(input));
-    let returnString = beepBoop(input);
+  $("form#number").submit(function(event) {
     event.preventDefault();
-    $("#output").show();
+    const input = parseInt($("input#input").val());
+    const output = beepBoop(input);
+    $("#result").text(output);
+    $(".output").show();
   });
-})
+}); 
