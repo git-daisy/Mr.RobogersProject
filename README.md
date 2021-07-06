@@ -2,12 +2,21 @@
 ## Epicodus Week 5 Code Review (Project 3)
 ### Creator:  Daisy Collins / git-daisy 
 
+### Tools Used:
+* JavaScript
+* jQuery
+* Html/CSS
+* jsFiddle & devtools - debugging/testing
+* VScode
+* Github & Terminal 
+* Bootstrap 
+
 ### Program Description 
 <p> Mr.Robogers wierd number converter accepts inputed values from a user, transforms 1's, 2's and 3's and spits out a new string of values! 
-This project was definitley the most difficult project I have overcome yet, I re-wrote my branching statements multiple times, confused the heck out of myself with improper syntax and attempting to use REGEX. Initially the beepBoop function was going to compare values using .indexOf, but I was having a hard time getting my values to return, so I decided to ditch that method, and used .includes instead. Now the program works great! I struggled to consistently use TDD but see the value in this type of development and hope to push myself to utilize it more throughout my programming. 
+This project was definitley the most difficult project I have overcome yet, I re-wrote my branching statements multiple times, confused the heck out of myself with improper syntax and attempting to use REGEX. Initially the beepBoop function was going to compare values using .indexOf, but I was having a hard time getting my values to return, so I decided to ditch that method, and used .includes instead. Now the program works great! I struggled to consistently use TDD but see the value in this type of development and hope to push myself to utilize it more throughout my programming.<p>
 
 
-# Known Bugs: 
+### Known Bugs: 
     None
   
 ### Specs
